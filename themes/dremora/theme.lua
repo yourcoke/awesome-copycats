@@ -10,8 +10,8 @@ theme                               = {}
 theme.dir                           = os.getenv("HOME") .. "/.config/awesome/themes/dremora"
 theme.wallpaper                     = theme.dir .. "/wall.png"
 
-theme.font                          = "Tamsyn 10.5"
-theme.taglist_font                  = "Icons 10"
+theme.font                          = "Tamsyn 12"
+theme.taglist_font                  = "Icons 12"
 theme.fg_normal                     = "#747474"
 theme.fg_focus                      = "#DDDCFF"
 theme.bg_normal                     = "#121212"
@@ -25,7 +25,7 @@ theme.titlebar_bg_focus             = "#292929"
 
 theme.taglist_fg_focus              = "#dddcff"
 theme.taglist_bg_focus              = "#121212"
-theme.menu_height                   = "16"
+theme.menu_height                   = "20"
 theme.menu_width                    = "140"
 
 theme.submenu_icon                  = theme.dir .. "/icons/submenu.png"
@@ -53,10 +53,17 @@ theme.tasklist_floating             = ""
 theme.tasklist_maximized_horizontal = ""
 theme.tasklist_maximized_vertical   = ""
 
+theme.titlebar_close_button_focus  = theme.dir .. "/icons/titlebar/close_focus.png"
+theme.titlebar_close_button_normal = theme.dir .. "/icons/titlebar/close_normal.png"
+
 -- lain related
 theme.useless_gap_width             = 10
 theme.layout_uselesstile            = theme.dir .. "/icons/uselesstile.png"
 theme.layout_uselesstileleft        = theme.dir .. "/icons/uselesstileleft.png"
 theme.layout_uselesstiletop         = theme.dir .. "/icons/uselesstiletop.png"
+theme.layout_uselesspiral          = theme.dir .. "/icons/spiral.png"
+theme.layout_uselesspiraldwindle   = theme.dir .. "/icons/dwindle.png"
+theme.layout_termfair				= theme.dir .. "/icons/termfair.png"
+theme.layout_centerwork				= theme.dir .. "/icons/centerwork.png"
 
 return theme
